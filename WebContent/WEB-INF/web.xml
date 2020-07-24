@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>first</servlet-name>
+    <servlet-class>com.job.EmployeeRegister</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>first</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>apptwo</servlet-name>
+    <servlet-class>com.job.EmployeeLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>apptwo</servlet-name>
+    <url-pattern>/loginemployee</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>three</servlet-name>
+    <servlet-class>com.job.ManagerRegister</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>three</servlet-name>
+    <url-pattern>/maregister</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>four</servlet-name>
+    <servlet-class>com.job.ManagerLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>four</servlet-name>
+    <url-pattern>/loginmanager</url-pattern>
+  </servlet-mapping>
+  
+
+</web-app>
